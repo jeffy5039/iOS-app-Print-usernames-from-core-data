@@ -14,6 +14,7 @@
 		EB21CF801A0A4B5600A68DCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB21CF7F1A0A4B5600A68DCE /* Images.xcassets */; };
 		EB21CF831A0A4B5600A68DCE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB21CF811A0A4B5600A68DCE /* LaunchScreen.xib */; };
 		EB21CF8F1A0A4B5600A68DCE /* Core_Data_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB21CF8E1A0A4B5600A68DCE /* Core_Data_DemoTests.swift */; };
+		EB21CF991A0A4C3200A68DCE /* AppUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB21CF981A0A4C3200A68DCE /* AppUsers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		EB21CF881A0A4B5600A68DCE /* Core Data DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Data DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB21CF8D1A0A4B5600A68DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB21CF8E1A0A4B5600A68DCE /* Core_Data_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_Data_DemoTests.swift; sourceTree = "<group>"; };
+		EB21CF981A0A4C3200A68DCE /* AppUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUsers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				EB21CF751A0A4B5600A68DCE /* AppDelegate.swift */,
 				EB21CF7A1A0A4B5600A68DCE /* ViewController.swift */,
+				EB21CF981A0A4C3200A68DCE /* AppUsers.swift */,
 				EB21CF7C1A0A4B5600A68DCE /* Main.storyboard */,
 				EB21CF7F1A0A4B5600A68DCE /* Images.xcassets */,
 				EB21CF811A0A4B5600A68DCE /* LaunchScreen.xib */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB21CF991A0A4C3200A68DCE /* AppUsers.swift in Sources */,
 				EB21CF7B1A0A4B5600A68DCE /* ViewController.swift in Sources */,
 				EB21CF761A0A4B5600A68DCE /* AppDelegate.swift in Sources */,
 				EB21CF791A0A4B5600A68DCE /* Core_Data_Demo.xcdatamodeld in Sources */,
